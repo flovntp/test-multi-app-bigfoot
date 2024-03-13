@@ -116,6 +116,7 @@ applications:
 
     container_profile: BALANCED
 
+
     # Mounts define directories that are writable after the build is complete. If set as a local source, disk property is required.
     mounts:
       '/.tmp_platformsh': { source: "storage", source_path: "files/tmp_platformsh" }
